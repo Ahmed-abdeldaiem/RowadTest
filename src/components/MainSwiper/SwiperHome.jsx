@@ -50,6 +50,46 @@ const StyledSwiper = styled(Box)(({ theme }) => ({
     background: '#0334bb !important',
     transform: 'scale(1.2)',
     transition: 'all 0.4s ease-in-out'
+  },
+  '& .swiper-slide-active .slide-title': {
+    animation: 'slideInDown 0.8s ease-in-out forwards'
+  },
+  '& .swiper-slide-active .slide-subtitle': {
+    animation: 'slideInRight 0.8s ease-in-out 0.3s forwards'
+  },
+  '& .swiper-slide-active .slide-text': {
+    animation: 'fadeIn 0.8s ease-in-out 0.6s forwards'
+  },
+  '& .swiper-slide:not(.swiper-slide-active) .slide-title, & .swiper-slide:not(.swiper-slide-active) .slide-subtitle, & .swiper-slide:not(.swiper-slide-active) .slide-text': {
+    opacity: 0
+  },
+  '@keyframes slideInDown': {
+    '0%': {
+      opacity: 0,
+      transform: 'translateY(-50px)'
+    },
+    '100%': {
+      opacity: 1,
+      transform: 'translateY(0)'
+    }
+  },
+  '@keyframes slideInRight': {
+    '0%': {
+      opacity: 0,
+      transform: 'translateX(50px)'
+    },
+    '100%': {
+      opacity: 1,
+      transform: 'translateX(0)'
+    }
+  },
+  '@keyframes fadeIn': {
+    '0%': {
+      opacity: 0,
+    },
+    '100%': {
+      opacity: 1,
+    }
   }
 }));
 
@@ -148,70 +188,39 @@ export default function SwiperHome() {
                   }}
                 >
                   <Typography
-                    className="animate-slide"
+                    className="slide-title"
                     variant="h2"
                     sx={{
                       fontWeight: 'bold',
-                     
                       mb: 2,
                       fontSize: { xs: '1.7rem', md: '3.5rem' },
-                      animation: 'slideInDown 0.8s ease-in-out',
-                      '@keyframes slideInDown': {
-                        '0%': {
-                          opacity: 0,
-                          transform: 'translateY(-50px)'
-                        },
-                        '100%': {
-                          opacity: 1,
-                          transform: 'translateY(0)'
-                        }
-                      }
+                      opacity: 0
                     }}
                   >
                     {slide.header}
                   </Typography>
 
                   <Typography
-                    className="animate-slide"
+                    className="slide-subtitle"
                     variant="h4"
                     sx={{
                       fontWeight: 'bold',
                       mb: 3,
                       fontSize: { xs: '1.3rem', md: '2rem' },
-                      animation: 'slideInRight 0.8s ease-in-out 0.3s',
-                      '@keyframes slideInRight': {
-                        '0%': {
-                          opacity: 0,
-                          transform: 'translateX(50px)'
-                        },
-                        '100%': {
-                          opacity: 1,
-                          transform: 'translateX(0)'
-                        }
-                      },
-                      animationFillMode: 'both'
+                      opacity: 0
                     }}
                   >
                     {slide.subheader}
                   </Typography>
 
                   <Typography
-                    className="animate-slide"
+                    className="slide-text"
                     variant="body1"
                     sx={{
                       fontSize: { xs: '1rem', md: '1.4rem' },
                       fontWeight: 'bold',
                       lineHeight: 1.8,
-                      animation: 'fadeIn 0.8s ease-in-out 0.6s',
-                      '@keyframes fadeIn': {
-                        '0%': {
-                          opacity: 0,
-                        },
-                        '100%': {
-                          opacity: 1,
-                        }
-                      },
-                      animationFillMode: 'both'
+                      opacity: 0
                     }}
                   >
                     {slide.text}
