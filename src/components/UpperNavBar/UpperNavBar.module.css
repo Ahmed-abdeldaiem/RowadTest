@@ -1,0 +1,15 @@
+.upNavLink{
+    margin-left: .5rem !important;
+    margin-right: .3rem !important;
+    transition: all ease-in-out .6s !important;
+   /* padding-top: .7rem !important;
+   padding-bottom: .7rem !important; */
+}
+
+.upNavLink:hover{
+    background-color: #037cb5;
+   
+
+}
+
+

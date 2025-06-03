@@ -1,0 +1,8 @@
+.logoStyle{
+    /* border: 1px solid black; */
+    border-radius: 30%;
+    /* box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5); */
+    /* box-shadow: 0 0 1px #037cb5, 0 0 5px #037cb5; */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
