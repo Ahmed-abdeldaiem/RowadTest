@@ -12,14 +12,14 @@ import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 
 const cardData = [
-  { id: 1, title: 'أسرة فندقية', image: 'https://homix-eg.com/cdn/shop/files/HOM5-Homco-111945566.jpg?v=1747669381' },
-  { id: 2, title: 'خزائن ملابس', image: 'https://www.jeddah-hotels-sa.com/data/Imgs/OriginalPhoto/15913/1591309/1591309167/img-jeddah-2.JPEG' },
-  { id: 3, title: 'كرسي', image: 'https://homznia.com/cdn/shop/files/kar3-homix-1.jpg?v=1736767214&width=533' },
-  { id: 4, title: 'طاولة إستقبال', image: 'https://cdn.salla.sa/ANrGE/1c9773d4-6439-40a5-83ae-f1effdbee5f0-1000x1000-DbqvgdL9Ttkj5ZemY873WUNuhBw2zXePMcLzmcof.jpg' },
-  { id: 5, title: 'مكتب استقبال ', image: 'https://imgcdn.stablediffusionweb.com/2024/12/27/a25972b9-589d-4f56-954b-82e7e4b9370c.jpg' },
-  { id: 6, title: 'خزائن ملفات', image: 'https://m.media-amazon.com/images/I/61fffoz606L._AC_UF1000,1000_QL80_.jpg' },
-  { id: 7, title: 'طاولة جانبية', image: 'https://manziluna.net/cdn/shop/files/02_c8c0f9ef-0ac4-44ca-a508-aae0feb4000e.jpg?v=1737746312' },
-  { id: 8, title: 'كنب استقبال', image: 'https://cdn.salla.sa/aOyYZ/ac94a77a-b9c6-4c7c-b0fc-ecd18307fa11-1000x892.5-28T93OtXDvDPpIk6T86DQRT66pQcTaeo0g97g5bb.jpg' },
+  { id: 1, title: 'أسرة فندقية', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS1.jpg' },
+  { id: 2, title: 'خزائن ملابس', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS2-1.jpg' },
+  { id: 3, title: 'كرسي', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS3-1.jpg' },
+  { id: 4, title: 'طاولة إستقبال', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS4.webp' },
+  { id: 5, title: 'مكتب استقبال ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS5-1.jpg' },
+  { id: 6, title: 'خزائن ملفات', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS6.jpg' },
+  { id: 7, title: 'طاولة جانبية', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS7.jpg' },
+  { id: 8, title: 'كنب استقبال', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ThirdHomeSection-hotelFur/TS8.webp' },
 ];
 
 

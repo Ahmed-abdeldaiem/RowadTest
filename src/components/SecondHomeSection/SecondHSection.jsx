@@ -12,16 +12,16 @@ import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 
 const cardData = [
-  { id: 1, title: 'غرف نوم', image: 'https://cdn.salla.sa/jKpRz/6d3fc000-f232-4585-9c47-86ffe462095a-1000x1000-JvNBw7Np7UZY8MrvuLmeACeyehpy3AaKsfe4G4GJ.jpg' },
-  { id: 2, title: 'غرف نوم أطفال', image: 'https://cdn.panhomestores.com/cdn-cgi/image/width=624px,quality=60,%20format=auto,%20dpr=1/media/catalog/category/Kids_n_Teens_3_1.png' },
-  { id: 3, title: 'خزانة ملابس', image: 'https://suqsaudi.com/wp-content/uploads/2022/05/download-16.png' },
-  { id: 4, title: 'غرف معيشة', image: 'https://media.zid.store/thumbs/dd7bb5e0-34de-4d66-83b5-d6bad0b82c3e/8e70f4ba-533c-476d-b8e9-591d6923a063-thumbnail-1000x1000-70.jpg' },
-  { id: 5, title: 'كنب', image: 'https://backend.futureelife.com/storage/items/hUfmQeArNTOKVwfUHGPXG3Ges3jGgeGvdkaoxvCR.jpg' },
-  { id: 6, title: 'كنب زاوية', image: 'https://media.zid.store/cdn-cgi/image/fit=contain,w=512,f=auto,q=90/https://media.zid.store/69ccbb1e-6ccc-492e-bca9-03efc40d8045/8ddf7074-4200-4a3b-966b-20bb4f75a86c.jpg' },
-  { id: 7, title: 'طاولة طعام', image: 'https://cdn.salla.sa/rWpBd/GUSoXOD29UrvUm9FIpzHl48Eq1BOK27u5ytaDN5V.jpg' },
-  { id: 8, title: 'طاولة تلفاز', image: 'https://tvtablesstore.com/wp-content/uploads/2020/03/%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86-%D9%84%D9%88%D9%86-%D8%A8%D9%8A%D8%AC-%D9%85%D8%B9-%D8%AE%D8%B4%D8%A8%D9%8A-71-255-1.jpg' },
-  { id: 9, title: 'كرسي', image: 'https://chichomz.com/cdn/shop/products/Villa.84_82c633c2-092c-4605-9f88-82f0f5a11f1e.jpg?v=1718024290' },
-  { id: 10, title: 'رف ديكور', image: 'https://arkanallqasr.com/wp-content/uploads/2024/02/%D8%AF%D9%8A%D9%83%D9%88%D8%B1-2.webp' },
+  { id: 1, title: 'غرف نوم', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS1-1.jpg' },
+  { id: 2, title: 'غرف نوم أطفال', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS2.avif' },
+  { id: 3, title: 'خزانة ملابس', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS3-1.jpg' },
+  { id: 4, title: 'غرف معيشة', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS4.jpg' },
+  { id: 5, title: 'كنب', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS5-1.jpg' },
+  { id: 6, title: 'كنب زاوية', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS6.avif' },
+  { id: 7, title: 'طاولة طعام', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS7-1.jpg' },
+  { id: 8, title: 'طاولة تلفاز', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS8-1.jpg' },
+  { id: 9, title: 'كرسي', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS9-1.jpg' },
+  { id: 10, title: 'رف ديكور', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/SecondHomeSection-homeFur/SS10.webp' },
 ];
 
 

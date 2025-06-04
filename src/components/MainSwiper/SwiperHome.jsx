@@ -98,31 +98,31 @@ const slides = [
     header: 'أثاث مكتبي عصري',
     subheader: 'تصاميم مبتكرة تناسب مكتبك',
     text: 'نقدم لك مجموعة متكاملة من الأثاث المكتبي العصري الذي يجمع بين الأناقة والراحة لتحسين بيئة العمل الخاصة بك',
-    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/swiper1/f2.jpeg'
+    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/mainSwiber/mainSwiber1.jpeg'
   },
   {
     header: 'أثاث منزلي فاخر',
     subheader: 'لمسات فنية تزين منزلك',
     text: 'اكتشف تشكيلتنا الواسعة من الأثاث المنزلي الفاخر الذي يضيف لمسة من الأناقة والرفاهية إلى منزلك',
-    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/swiper1/f1-1.jpeg'
+    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/mainSwiber/mainSwiber2-1.jpeg'
   },
   {
     header: 'تصاميم فندقية راقية',
     subheader: 'حلول متكاملة للفنادق',
     text: 'نوفر حلولاً متكاملة للفنادق والمنتجعات مع تصاميم عصرية تجمع بين الفخامة والراحة',
-    image: 'https://images.pexels.com/photos/12284844/pexels-photo-12284844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/mainSwiber/mainSwiber3-1.jpeg'
   },
   {
     header: 'أثاث تعليمي متكامل',
     subheader: 'للمدارس والجامعات والمراكز التعليمية',
     text: 'نقدم أثاثاً تعليمياً متكاملاً للمدارس والجامعات والمراكز التعليمية مع تصاميم عصرية تناسب البيئة التعليمية',
-    image: 'https://images.pexels.com/photos/5869263/pexels-photo-5869263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/mainSwiber/mainSwiber4-1.jpg'
   },
   {
     header: 'خدمات متكاملة',
     subheader: 'من التصميم إلى التركيب',
     text: 'نقدم خدمات شاملة تبدأ من التصميم وحتى التركيب والصيانة لضمان رضا العملاء ',
-    image: 'https://t4.ftcdn.net/jpg/12/32/17/19/360_F_1232171919_pigwYle1Ux8OaT5NayOHg79OJmzaFGmv.jpg'
+    image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/mainSwiber/mainSwiber5.jpg'
   }
 ];
 

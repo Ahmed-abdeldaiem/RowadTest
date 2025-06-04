@@ -12,14 +12,14 @@ import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 
 const cardData = [
-  { id: 1, title: 'طاولة دراسة', image: 'https://5.imimg.com/data5/GH/HK/MY-37849122/student-school-bench-500x500.jpg' },
-  { id: 2, title: 'مكاتب مدرسين', image: 'https://image.made-in-china.com/202f0j00UZltuOzhIgpR/School-K1-K12-Classroom-Office-Furniture-Wooden-HDF-MDF-Metal-Frame-Fixed-Single-Teacher-Worker-Desk-Table-with-3-Drawers-for-1-People.webp' },
-  { id: 3, title: 'مكاتب إدارية', image: 'https://mskn.app/storage/app/ads_images/7aZWJsY9ou2YF0m20Iov.jpeg' },
-  { id: 4, title: 'مكتبة', image: 'https://www.aljarida.com/jarida/uploads/images/2024/03/18/256795.jpg' },
-  { id: 5, title: 'كرسي', image: 'https://s.alicdn.com/@sc04/kf/Ha035b1db191e47bc84eace0aefbe7863F.jpg' },
-  { id: 6, title: 'طاولة كمبيوتر', image: 'https://s.alicdn.com/@sc04/kf/HTB1BoreXyDxK1RjSsphq6zHrpXaG.jpg_720x720q50.jpg' },
-  { id: 7, title: 'ستاند', image: 'https://m.media-amazon.com/images/I/71O7cD6efuL.jpg' },
-  { id: 8, title: 'مدرجات', image: 'https://agadirinfo.ma/wp-content/uploads/2016/11/6011b3893099d.jpg' },
+  { id: 1, title: 'طاولة دراسة', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS1-1.jpg' },
+  { id: 2, title: 'مكاتب مدرسين', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS2.avif' },
+  { id: 3, title: 'مكاتب إدارية', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS3-1.jpeg' },
+  { id: 4, title: 'مكتبة', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS4-1.jpg' },
+  { id: 5, title: 'كرسي', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS5.avif' },
+  { id: 6, title: 'طاولة كمبيوتر', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS6.avif' },
+  { id: 7, title: 'ستاند', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS7.jpg' },
+  { id: 8, title: 'مدرجات', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/ForthHomeSection-learnFur/FS8-1.jpg' },
   
 ];
 

@@ -65,11 +65,11 @@ const MobileMenuBox = styled(Box)(({ theme }) => ({
 // Add these constants at the top of the file
 const LANGUAGE_FLAGS = {
   AR: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/2560px-Flag_of_Saudi_Arabia.svg.png",
+    src: "https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/langMenu/langMenu1.jpg",
     alt: "AR"
   },
   EN: {
-    src: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/330px-Flag_of_the_United_States.svg.png",
+    src: "https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/langMenu/langMenu2.png",
     alt: "EN"
   }
 };
@@ -122,6 +122,10 @@ export default function MainNav({ isMobile, onClose }) {
       });
     }
   }, [activeMenu]);
+
+
+  
+
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -798,6 +802,63 @@ export default function MainNav({ isMobile, onClose }) {
                   </Collapse>
                 )}
 
+
+                    {/* خدماتنا */}
+                    <Tab
+                  id="servicesButton"
+                  aria-controls={openServices ? 'servicesMenu' : undefined}
+                  aria-haspopup="true"
+                  aria-expanded={openServices ? 'true' : undefined}
+                  onClick={(e) => handleTabClick(e, 'services')}
+                  sx={{
+                    ...commonTabStyles,
+                    ...(isMobile && {
+                      justifyContent: 'space-between',
+                      px: 2,
+                      width: '100%'
+                    })
+                  }}
+                  label={
+                    <Box sx={{ 
+                      display: "flex", 
+                      alignItems: "center", 
+                      gap: 0.5,
+                      width: '100%',
+                      justifyContent: isMobile ? 'space-between' : 'center'
+                    }}>
+                      خدماتنا
+                      {isMobile ? (
+                        expandedMenu === 'services' ? <ExpandLessIcon /> : <ExpandMoreIcon />
+                      ) : (
+                        <KeyboardArrowDownIcon sx={{ fontSize: "1.2rem" }} />
+                      )}
+                    </Box>
+                  }
+                />
+                {isMobile && (
+                  <Collapse in={expandedMenu === 'services'}>
+                    <MobileMenuBox>
+                      {[
+                        { to: 'assemblyService', label: 'خدمة فك وتركيب' },
+                        { to: 'maintenance', label: 'خدمة الصيانة' },
+                        { to: 'after-sale', label: 'خدمة ما بعد البيع' },
+                        { to: 'delivery', label: 'خدمة توصيل' }
+                      ].map((item) => (
+                        <div 
+                          key={item.to}
+                          className="menu-item"
+                          onClick={() => handleMenuItemClick(null, item.to)}
+                          style={{
+                            cursor: 'pointer'
+                          }}
+                        >
+                          {item.label}
+                        </div>
+                      ))}
+                    </MobileMenuBox>
+                  </Collapse>
+                )}
+
                 {/* خدمة العملاء */}
                 <Tab
                   id="serviceButton"
@@ -855,61 +916,7 @@ export default function MainNav({ isMobile, onClose }) {
                   </Collapse>
                 )}
 
-                {/* خدماتنا */}
-                <Tab
-                  id="servicesButton"
-                  aria-controls={openServices ? 'servicesMenu' : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={openServices ? 'true' : undefined}
-                  onClick={(e) => handleTabClick(e, 'services')}
-                  sx={{
-                    ...commonTabStyles,
-                    ...(isMobile && {
-                      justifyContent: 'space-between',
-                      px: 2,
-                      width: '100%'
-                    })
-                  }}
-                  label={
-                    <Box sx={{ 
-                      display: "flex", 
-                      alignItems: "center", 
-                      gap: 0.5,
-                      width: '100%',
-                      justifyContent: isMobile ? 'space-between' : 'center'
-                    }}>
-                      خدماتنا
-                      {isMobile ? (
-                        expandedMenu === 'services' ? <ExpandLessIcon /> : <ExpandMoreIcon />
-                      ) : (
-                        <KeyboardArrowDownIcon sx={{ fontSize: "1.2rem" }} />
-                      )}
-                    </Box>
-                  }
-                />
-                {isMobile && (
-                  <Collapse in={expandedMenu === 'services'}>
-                    <MobileMenuBox>
-                      {[
-                        { to: 'assemblyService', label: 'خدمة فك وتركيب' },
-                        { to: 'maintenance', label: 'خدمة الصيانة' },
-                        { to: 'after-sale', label: 'خدمة ما بعد البيع' },
-                        { to: 'delivery', label: 'خدمة توصيل' }
-                      ].map((item) => (
-                        <div 
-                          key={item.to}
-                          className="menu-item"
-                          onClick={() => handleMenuItemClick(null, item.to)}
-                          style={{
-                            cursor: 'pointer'
-                          }}
-                        >
-                          {item.label}
-                        </div>
-                      ))}
-                    </MobileMenuBox>
-                  </Collapse>
-                )}
+            
 
                 {/* تواصل معنا */}
                 <Tab

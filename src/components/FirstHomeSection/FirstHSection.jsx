@@ -14,16 +14,16 @@ import 'swiper/css/pagination';
 import { Link } from 'react-router-dom';
 
 const cardData = [
-  { id: 1, title: 'مكتب فاخر', image: 'https://fekrahome.com/wp-content/uploads/2023/01/7.jpg' },
-  { id: 2, title: 'طاولة اجتماعات ', image: 'https://cdn.salla.sa/NOmmV/3o0Z352PL2N03loRAmf7H8AG9WnxdDG0u2NN7mXt.jpg' },
-  { id: 3, title: 'كرسي مكتب ', image: 'https://cdn.salla.sa/EdWdg/44de6d52-99a2-4cc7-9d53-3a1250f6ae90-1000x1000-w0B6LMT7LfdVmGCy1pW3fTTEYPMqGpaUfbTopgj0.png' },
-  { id: 4, title: 'خزائن ملفات ', image: 'https://m.media-amazon.com/images/I/61MVZLiwKeL._AC_UF1000,1000_QL80_.jpg' },
-  { id: 5, title: 'مكتب استقبال ', image: 'https://magicarteg.com/wp-content/uploads/2023/05/k-105-430x544.jpg' },
-  { id: 6, title: 'رف مكتبي', image: 'https://manziluna.net/cdn/shop/files/image.remini-enhanced-2024-08-13T120905.841.jpg?v=1737742830&width=533' },
-  { id: 7, title: 'مكتب زاوية ', image: 'https://cdn.salla.sa/aOyYZ/fbd7adff-1199-4b5d-a3cb-9cbf4d06a561-1000x750-Jx7QWzgPPyl4lyH2mzNMdfG0DZe0sXld1S1i9lcF.jpg' },
-  { id: 8, title: 'طاولة مؤتمرات ', image: 'https://offispace.sa/wp-content/uploads/2022/07/IME04-scaled.jpg' },
-  { id: 9, title: 'كنب مكتبي', image: 'https://masterroom.com/wp-content/uploads/2024/04/%D8%B7%D9%82%D9%85-%D9%83%D9%86%D8%A8.webp' },
-  { id: 10, title: 'وحدة عمل جماعية', image: 'https://alomary.sa/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-18-at-1.55.28-PM.jpeg' },
+  { id: 1, title: 'مكتب فاخر', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS1-1.jpg' },
+  { id: 2, title: 'طاولة اجتماعات ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS2-1.jpg' },
+  { id: 3, title: 'كرسي مكتب ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS3-1.jpg' },
+  { id: 4, title: 'خزائن ملفات ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS4-1.jpg' },
+  { id: 5, title: 'مكتب استقبال ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS5-1.jpg' },
+  { id: 6, title: 'رف مكتبي', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS6.webp' },
+  { id: 7, title: 'مكتب زاوية ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS7-1.jpg' },
+  { id: 8, title: 'طاولة مؤتمرات ', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS8-1.jpg' },
+  { id: 9, title: 'كنب مكتبي', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS9-1.jpg' },
+  { id: 10, title: 'وحدة عمل جماعية', image: 'https://raw.githubusercontent.com/Ahmed-abdeldaiem/Rowad-Image/refs/heads/main/FirstHomeSection-officeFur/FS10.jpeg' },
 ];
 
 
